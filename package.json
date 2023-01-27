@@ -1,0 +1,28 @@
+{
+  "name": "css-frameworks-ca-mariesaeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss:dist/css",
+    "watch": "sass --watch scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariesaeter/css-frameworks-ca-mariesaeter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariesaeter/css-frameworks-ca-mariesaeter/issues"
+  },
+  "homepage": "https://github.com/mariesaeter/css-frameworks-ca-mariesaeter#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}

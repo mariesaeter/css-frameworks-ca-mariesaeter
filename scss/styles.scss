@@ -1,0 +1,81 @@
+@import "variables";
+@import "nav";
+@import "buttons";
+
+@import "profile";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.small-profile-img {
+  width: 40px;
+  height: 40px;
+}
+
+.medium-profile-img {
+  width: 50px;
+  height: 50px;
+}
+
+.large-profile-img {
+  width: 70px;
+  height: 70px;
+}
+
+i {
+  font-size: 32px;
+  color: $pink;
+}
+
+.small-icon {
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: $gray-100;
+}
+
+// .search-click {
+//   position: relative;
+//   background-size: 22px;
+
+//   width: 50px;
+//   height: 50px;
+//   padding: 25px;
+//   transition: all 0.5s;
+// }
+// .search-click::before {
+//   display: inline-block;
+//   position: absolute;
+//   font-family: "Font Awesome 6 Free";
+//   font-weight: 400;
+//   content: "\f002";
+// }
+
+// .search-click:focus {
+//   width: ;
+//   padding: $input-padding-x;
+// }
+
+// // .search-btn {
+// //   display: none;
+// // }
+
+// .search-click:focus ~ .search-btn {
+//   display: block;
+// }
+
+// .search-click {
+//   position: relative;
+//   overflow: hidden;
+//   height: 50px;
+// }
+// .search-click input {
+//   background: transparent;
+//   border: 1px solid #ccc;
+//   outline: none;
+//   position: absolute;
+//   width: 300px;
+//   height: 50px;
+//   left: 0%;
+//   padding: 10px;
+// }
