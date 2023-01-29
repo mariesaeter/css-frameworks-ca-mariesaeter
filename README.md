@@ -44,6 +44,7 @@ Feel free to contact me!
 Wireframes can be found in the repo, prototypes can be found below.
 
 > [_Mobile prototype_](https://xd.adobe.com/view/ea433168-192e-402d-9434-dcfa9a7396b9-bf10/)
+
 > [_Web prototype_](https://xd.adobe.com/view/09d0d44f-8372-47e8-a13e-a3537058366c-5c83/)
 
 ## Acknowledgement
@@ -53,6 +54,7 @@ Wireframes can be found in the repo, prototypes can be found below.
 + Icons are gathered from the free pack at [fontawesome.com](https://fontawesome.com)
 
 ### Inspiration
-#### The expanding search field is inspired by [MDBootstrap.com](https://mdbootstrap.com/docs/standard/extended/search-expanding/)
+#### The expanding search field 
+Inspired by [MDBootstrap.com](https://mdbootstrap.com/docs/standard/extended/search-expanding/)
 
 
