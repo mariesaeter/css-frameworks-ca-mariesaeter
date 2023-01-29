@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Profile page of Bokvenn" />
-    <title>Bokvenn | Sara Donanu</title>
+    <meta name="description" content="Home page of Bokvenn" />
+    <title>Bokvenn | Home</title>
     <link rel="stylesheet" href="dist/css/styles.css" />
     <script
       src="https://kit.fontawesome.com/a2324745d3.js"
@@ -24,7 +24,8 @@
           <ul class="navbar-nav nav flex-row align-items-center">
             <li class="nav-item ps-2 pe-2 mx-md-2 mx-lg-2 text-uppercase">
               <a
-                class="nav-link d-flex flex-column align-items-center"
+                class="nav-link active d-flex flex-column align-items-center"
+                aria-current="page"
                 href="home.html"
                 ><img src="images/home-icon.png" class="w-50" /><span
                   class="mt-1"
@@ -41,8 +42,7 @@
             </li>
             <li class="nav-item ps-2 pe-2 mx-md-2 mx-lg-2 text-uppercase">
               <a
-                class="nav-link active d-flex flex-column align-items-center"
-                aria-current="page"
+                class="nav-link d-flex flex-column align-items-center"
                 href="profile.html"
                 ><img
                   src="images/profiles/profile5.jpg"
@@ -72,75 +72,11 @@
         </div>
       </nav>
     </header>
-    <main class="mx-3 mx-sm-2 mt-5 pt-5">
-      <div class="container">
-        <div class="row justify-content-between m-xl-5">
-          <div class="col-12 col-md-4 col-l-4 col-xl-4 text-center p-4">
-            <img
-              src="/images/profiles/profile5.jpg"
-              class="rounded-circle w-75"
-            />
-            <h1 class="pt-3">Sara Donanu</h1>
-            <div class="d-flex justify-content-center">
-              <p class="text-primary fw-semibold me-2">Age:</p>
-              <span>23 years</span>
-            </div>
-            <div class="d-flex justify-content-center">
-              <p class="text-primary fw-semibold me-2">From:</p>
-              <span>Switzerland</span>
-            </div>
-            <div class="d-flex justify-content-center">
-              <p class="text-primary fw-semibold me-2">Favorite genre:</p>
-              <span>Fantasy</span>
-            </div>
-            <div class="d-flex justify-content-center align-items-center mb-2">
-              <i class="fa-solid fa-book-open small-icon"></i>
-              <small class="fw-light ps-1"
-                >Reading now The Nature of Witches</small
-              >
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <i class="fa-solid fa-book small-icon"></i>
-              <small class="fw-light ps-1"
-                >Last finished The Blade Itself</small
-              >
-            </div>
-            <h2 class="mt-3">Sara's friends</h2>
-            <div
-              class="d-flex justify-content-between flex-md-wrap flex-l-wrap flex-xl-wrap"
-            >
-              <div class="d-flex flex-column align-items-center m-1">
-                <img
-                  src="images/profiles/profile-no-image.png"
-                  class="large-profile-img"
-                />
-                <span class="mt-1 fw-light">Steiner</span>
-              </div>
-              <div class="d-flex flex-column align-items-center m-1">
-                <img
-                  src="images/profiles/profile7.jpg"
-                  class="large-profile-img rounded-circle"
-                />
-                <span class="mt-1 fw-light">Clair</span>
-              </div>
-              <div class="d-flex flex-column align-items-center m-1">
-                <img
-                  src="images/profiles/profile8.jpg"
-                  class="large-profile-img rounded-circle"
-                />
-                <span class="mt-1 fw-light">Elliot</span>
-              </div>
-              <div class="d-flex flex-column align-items-center m-1">
-                <img
-                  src="images/profiles/profile1.jpg"
-                  class="large-profile-img rounded-circle"
-                />
-                <span class="mt-1 fw-light">Alexis</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-7 col-l-7 col-xl-7">
-            <h2 class="mt-3">Sara's feed</h2>
+    <main class="mx-3 mx-sm-2 mt-5 pt-2">
+      <div class="container p-3 my-3">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-sm-12 col-md-9 col-l-7 col-xl-7">
+            <h1>Newsfeed</h1>
             <div class="bg-white rounded shadow p-3 my-3">
               <div class="align-items-center">
                 <a href="profile.html">
@@ -241,7 +177,6 @@
                 <small>No more comments</small>
               </div>
             </div>
-
             <div class="card shadow p-3 my-4">
               <div class="d-flex">
                 <a href="profile.html">
@@ -317,30 +252,30 @@
               <div class="d-flex">
                 <a href="profile.html">
                   <img
-                    src="images/profiles/profile5.jpg"
+                    src="images/profiles/profile-no-image.png"
                     class="rounded-circle medium-profile-img"
                   />
                 </a>
                 <div class="ms-2">
                   <div class="d-flex justify-content-between">
-                    <a href="#">Sara Donanu</a>
-                    <small class="fw-light">5 days ago</small>
+                    <a href="#">Maria Scariva</a>
+                    <small class="fw-light">1 week ago</small>
                   </div>
 
                   <div class="d-flex align-items-center">
-                    <i class="fa-solid fa-book small-icon"></i>
+                    <i class="fa-solid fa-book-open small-icon"></i>
                     <small class="fw-light ps-1"
-                      >finished The Blade Itself</small
+                      >reading The Nature of Witches</small
                     >
                   </div>
                 </div>
               </div>
 
               <p class="pt-4 px-2">
-                I finally finished this beast! 4/5 stars. The beginning was a
-                bit slow, and not much happened throughout the book, but I
-                actually enjoyed it more than I thought I would. Have any of you
-                read it yet?
+                I'm almost halfway through The Nature of Witches by Rachel
+                Griffin now, and I can't seem to put down the book! I think my
+                plans today have changed to staying by the fire and finishing
+                this of.
               </p>
               <div class="d-flex">
                 <a href="#">Like</a>
@@ -362,32 +297,90 @@
               <div class="d-flex mt-3 align-items-center">
                 <a href="profile.html">
                   <img
-                    src="images/profiles/profile1.jpg"
+                    src="images/profiles/profile-no-image.png"
                     class="rounded-circle medium-profile-img"
                   />
                 </a>
                 <div class="bg-secondary rounded ms-3 w-100 pt-1 ps-2">
-                  <a href="#">Alexis Summers</a>
+                  <a href="#">Steiner Gullskoghaugen</a>
                   <p class="fw-light">
-                    The second book in this series make it totally worth it!
+                    I read this book last year, and I totally understand how you
+                    feel!
                   </p>
                 </div>
               </div>
               <div class="d-flex mt-2 align-items-center">
                 <a href="profile.html">
                   <img
-                    src="images/profiles/profile8.jpg"
+                    src="images/profiles/profile7.jpg"
                     class="rounded-circle medium-profile-img"
                   />
                 </a>
                 <div class="bg-secondary rounded ms-3 w-100 pt-1 ps-2">
-                  <a href="#">Elliot Sanders</a>
+                  <a href="#">Clair Unadiull</a>
                   <p class="fw-light">
-                    This one is sitting on my shelf right now, maybe I should go
-                    and pick it up!
+                    This was my favorite book of 2022, hope you enjoy reading it
+                    as well!
                   </p>
                 </div>
               </div>
+              <div class="text-center mt-3">
+                <a href="#">View all comments</a>
+              </div>
+            </div>
+            <div class="card shadow p-3 my-4">
+              <div class="d-flex">
+                <a href="profile.html">
+                  <img
+                    src="images/profiles/profile1.jpg"
+                    class="rounded-circle medium-profile-img"
+                  />
+                </a>
+                <div class="ms-2">
+                  <div class="d-flex justify-content-between">
+                    <a href="#">Alexis Summers</a>
+                    <small class="fw-light">3 weeks ago</small>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-book small-icon"></i>
+                    <small class="fw-light ps-1">finished Spellslinger</small>
+                  </div>
+                </div>
+              </div>
+
+              <p class="pt-4 px-2">
+                This was... Amazing! Can't wait to continue on with this series!
+              </p>
+              <div class="d-flex">
+                <a href="#">Like</a>
+                <a class="ms-4" href="#">Comment</a>
+              </div>
+              <div class="d-flex mt-3">
+                <a href="profile.html">
+                  <img
+                    src="images/profiles/profile5.jpg"
+                    class="rounded-circle medium-profile-img"
+                  />
+                </a>
+                <input
+                  type="text"
+                  class="form-control ms-3"
+                  placeholder="Write comment here..."
+                />
+              </div>
+              <div class="d-flex mt-3 align-items-center">
+                <a href="profile.html">
+                  <img
+                    src="images/profiles/profile5.jpg"
+                    class="rounded-circle medium-profile-img"
+                  />
+                </a>
+                <div class="bg-secondary rounded ms-3 w-100 pt-1 ps-2">
+                  <a href="#">Sara Donanu</a>
+                  <p class="fw-light">I know!!</p>
+                </div>
+              </div>
+
               <div class="text-center mt-3">
                 <small>No more comments</small>
               </div>
