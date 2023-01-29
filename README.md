@@ -38,6 +38,7 @@ Feel free to submit issues and requests for improvements.
 ## Contact
 
 [My LinkedIn Page](www.linkedin.com/in/marie-sæter-954821207)
+
 Feel free to contact me!
 
 ## Design process
@@ -50,7 +51,7 @@ Wireframes can be found in the repo, prototypes can be found below.
 ## Acknowledgement
 
 ### Images and icons
-+ All images are gathered from unsplash.com
++ All images are gathered from [unsplash.com](https://unsplash.com)
 + Icons are gathered from the free pack at [fontawesome.com](https://fontawesome.com)
 
 ### Inspiration
